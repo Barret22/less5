@@ -1,4 +1,8 @@
 
-for (let i=20; i <= 30; i=i+0.5) {
-    console.log(i)
+
+let costUnit = 26;
+for (let dollars = 10; dollars <= 100; dollars++) {
+    if (dollars % 10 == 0) {
+        console.log(costUnit * dollars);
+    }
 }
